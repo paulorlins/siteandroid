@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:  'love';
+    src: url('fontes/IDroid.otf') format('opentype'), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}   
+body{
+    background-color: #84E1AD;
+}
+
+section#cabeçalho{
+    background-image:linear-gradient(180deg,#2EA764,#1A5C38);
+    padding-top: 20px;
+    margin-top: -8px;
+    margin-left: -12px;
+    margin-right: -12px;
+
+    
+
+}
+
+
+article{
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: white;
+    margin: 0px 150px 0px 150px;
+}
+
+
+h1{
+    text-align:center;
+    color: rgb(0, 136, 2);
+    
+    
+}
+h1.titulo2{
+    text-align: left;
+    background-color: #a3fac987;
+}
+h1.titulo1{
+    text-align: left;
+    font-family: 'IDroid.otf';
+    
+    
+    
+}
+h1#principal{
+    color: #ffffff;
+    
+}
+h2{
+    text-align: center;
+    color: white;
+}
+nav > a{
+    margin: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+a{
+    color: rgb(29, 147, 29);
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: 17px;
+
+}
